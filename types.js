@@ -17,11 +17,11 @@ let stringThree = `backtick quotes`;
 
 // Combining Strings
 
-let greeting = "Good Morning";
+let greeting = "Good Morning"
 
-let firstName = "Rob";
+let firstName = "Judith"
 
-// ! Problem: Morning and Rob does not have a space
+// ! Problem: Morning and Judith does not have a space
 console.log(greeting + firstName);
 
 //Solution;
@@ -30,7 +30,7 @@ console.log(greeting + " " + firstName);
 
 let fullGreeting = `${greeting} ${firstName}`;
 
-console.log(fullGreeting = `${greeting} ${firstName}`);
+let fullGreeting = `${greeting} ${firstName}`;
 
 console.log(fullGreeting);
 
@@ -63,24 +63,23 @@ let currentTemp = 38
 console.log(typeof currentTemp)
 
 let funkyNumber = 0.2 + 0.1
-console.log (funkyNumber)
+console.log (funkyNumber);
 
-let add1 = 2 +1 
+let add1 = 2 +1;
 console.log(add1)
 
-let totalMoney = (1999 + 1599) / 100
-console.log(totalMoney)
+let totalMoney = (1999 + 1599) / 100;
+console.log(totalMoney);
 
 // ! Be careful of mismacting Strings and Numbers 
 
-let myAge = "42"
-let friendAge = 34
+let myAge = "42";
+let friendAge = 34;
 
-console.log(Number(myAge) + friendAge)
-
+console.log(Number(myAge) + friendAge);
 // parseInt(myAge)
 // Add a (+) before the string variable 
-console.log(+myAge + friendAge)
+console.log(+myAge + friendAge);
 
 let stringNumber = "23"
 let stringExample = "abcd"

@@ -14,18 +14,16 @@ var   firstName  =   "Rob";
 
 console.log("firstName", firstName);
 
-// ! 15 variables are CASE SENSITIVE
-
-console.log("firstName", firstName);
+// ! JS variables are CASE SENSITIVE
 
 // console.log("firstName", FirstName); // code breaks casing matters 
-
+ 
 // ? Reassigment of a variable
 // No need for a [var, let, or const] because the variable has already been declared.
 // Only the variable name folled by an - you can reassign the value.
 
 // ! using var and let you CAN reassign however using const you CANNOT
-firstName = "Jordan";
+firstName = "Jordan"
 console.log("firstName", firstName);
 
 // CONST example
@@ -58,3 +56,4 @@ console.log("totalSeconds", totalSeconds);
 // ? Create variable used to store a current temp, console.log the current temp. 
 
 let currentTemp ="38";
+
