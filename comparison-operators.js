@@ -1,7 +1,7 @@
 // Comparison Operators
 
 /* 
-double equal (====)
+double equal (==)
 tripe equal (===)
 
 Not Equal 
@@ -59,7 +59,7 @@ let person3Permissions = "guest"
 
 let isViewable = person1Permissions === "admin" || person2Permissions === "user";
 
-console.log("isViewableAdmin", isViewableAdmin)''
+console.log("isViewableAdmin", isViewableAdmin)``
 
 // ? Mini Challenge:
 // Create a variable Called isEven

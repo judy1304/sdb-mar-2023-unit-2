@@ -8,12 +8,12 @@ STRINGS:
 - datatypes used to represent text and they are wrapped in single quotes, double quotes, or backticks
  */
 
-let strinOne = "double quotes";
+let strinOne ==  "double quotes"
 // prettier-ignore
 
 let stringTwo = 'single quotes'
 
-let stringThree = `backtick quotes`;
+let stringThree === `backtick quotes`;
 
 // Combining Strings
 
